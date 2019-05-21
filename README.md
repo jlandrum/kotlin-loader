@@ -5,14 +5,14 @@ A basic Kotlin loader for WebPack that invokes `kotlinc-js`
 To use with vue, add the following to your `vue.config.js`:
 ```
 configureWebpack: {
-	module: {
-		rules: [
-			{
-				test: /\.kt$/,
-				use: 'kotlin-loader'
-			}
-		]
-	}
+  module: {
+    rules: [
+      {
+        test: /\.kt$/,
+        use: 'kotlin-loader'
+      }
+    ]
+  }
 }
 ```
 
