@@ -1,0 +1,8 @@
+{
+  "name": "kotlin-loader",
+  "version": "1.0.0",
+  "description": "Kotlin Loader for Webpack",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {}
+}
